@@ -1,0 +1,23 @@
+[VirtualGL]
+name=VirtualGL official RPMs
+baseurl=https://packagecloud.io/dcommander/virtualgl/rpm_any/rpm_any/$basearch
+repo_gpgcheck=1
+gpgcheck=1
+gpgkey=https://packagecloud.io/dcommander/virtualgl/gpgkey
+       https://raw.githubusercontent.com/VirtualGL/repo/main/VGL-GPG-KEY
+       https://raw.githubusercontent.com/VirtualGL/repo/main/VGL-GPG-KEY-1024
+enabled=1
+sslverify=1
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt
+
+[VirtualGL-source]
+name=VirtualGL official SRPMs
+baseurl=https://packagecloud.io/dcommander/virtualgl/rpm_any/rpm_any/SRPMS
+repo_gpgcheck=1
+gpgcheck=1
+gpgkey=https://packagecloud.io/dcommander/virtualgl/gpgkey
+       https://raw.githubusercontent.com/VirtualGL/repo/main/VGL-GPG-KEY
+       https://raw.githubusercontent.com/VirtualGL/repo/main/VGL-GPG-KEY-1024
+enabled=1
+sslverify=1
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt

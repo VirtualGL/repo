@@ -1,0 +1,11 @@
+[VirtualGL-i386]
+name=VirtualGL official i386 RPMs
+baseurl=https://packagecloud.io/dcommander/virtualgl/rpm_any/rpm_any/i386
+repo_gpgcheck=1
+gpgcheck=1
+gpgkey=https://packagecloud.io/dcommander/virtualgl/gpgkey
+       https://raw.githubusercontent.com/VirtualGL/repo/main/VGL-GPG-KEY
+       https://raw.githubusercontent.com/VirtualGL/repo/main/VGL-GPG-KEY-1024
+enabled=1
+sslverify=1
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt
