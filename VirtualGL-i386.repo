@@ -8,4 +8,4 @@ gpgkey=https://packagecloud.io/dcommander/virtualgl/gpgkey
        https://raw.githubusercontent.com/VirtualGL/repo/main/VGL-GPG-KEY-1024
 enabled=1
 sslverify=1
-sslcacert=/etc/pki/tls/certs/ca-bundle.crt
+sslcacert=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
